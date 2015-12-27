@@ -123,6 +123,23 @@
     <span>Проверка</span><br/>
     <div style="position:absolute; left:300px; top:200px; font-family:Segoe, 'Segoe UI', 'DejaVu Sans', 'Trebuchet MS', Verdana, sans-serif; font-size:10pt; border-style:groove; border-width:30px; border-color:blue; padding:4px;">This text appears in the <span style="font-style:italic; color:red">upper-left hand corner</span> of the page.<br/>It also has a big blue groovy border around it
     </div>
+    <form name="test" action="" method="post">
+    <input type="text" value="Поиск..."/><br/>
+    <label for="name">Введите имя: </label><input type="text" placeholder="Поиск..." name="name_1" id="name" title="Подсказка" maxlength="5"/><br/><br/>
+    <label for="date">День рождения: </label><input type="date" name="date" id="date"/><br/><br/>
+    <label for="URL">URL: </label><input type="url" name="URL" id="URL"><br/><br/>
+    <input type="range"/><br/><br/>
+    <label for="male">Мужской: </label><input type="radio" name="state" id="male">
+    <label for="female">Женский: </label><input type="radio" name="state" id="female"><br/><br/>
+    <input type="password"/><br/><br/>
+    <input type="number"/><br/><br/>
+    <input type="file"/><br/><br/>
+    <input type="color"/><br/><br/>
+    Со всем согласен <input type="checkbox"/><br/><br/>
+    <input type="button" value="Отправить Button"/><!--Не происходит перзагрузки страницы, используется для JavaScript-->
+    <input type="submit" value="Отправить Submit"/><!--Происходит перзагрузка страницы, используется для php--><br/><br/>
+    <input type="reset" value="Очистить"/>
+    </form>
     
     </body>
 </html>
