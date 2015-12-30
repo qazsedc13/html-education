@@ -1,8 +1,8 @@
 @charset "utf-8";
 /* CSS Document */
-body{
-		background-color:#a4edbe;
-		}
-h1{color:red}
-h3{color:blue}
+*{font-size:18px}
+body{background-color:#a4edbe;}
+#header{color:red}
+p.style{background-color:blue}
+p i {color:#EC09B2}
 
