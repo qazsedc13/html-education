@@ -1,11 +1,25 @@
 @charset "utf-8";
 /* CSS Document */
+*{text-decoration:none}
 
 body{background-color:#a4edbe;}
 #header{color:red}
 h3.style{color:yellow}
 p.style{background-color:blue}
 p i {color:#EC09B2}
+p:hover{background-color:#0AAF31}
+p:active{background-color:#DB6515}
 p.example, b{font-size:30px;
 	font-weight:normal}
+p#example_1:first-letter {color:#F17452;}
+p#example_1:first-line {color:red;}
+
+.href{color:#E70C10;
+}
+.href:hover{color:#0EDF2C;
+}
+.href:active{color:#1295D5;
+}
+.href:visited{color:#0856F3;
+}
 
