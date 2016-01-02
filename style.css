@@ -2,7 +2,8 @@
 /* CSS Document */
 *{text-decoration:none}
 
-body{background-color:#a4edbe;}
+html{background:url(http://www.fotokomok.ru/wp-content/uploads/2013/12/Christmas-Blue-Background-2-570x427.png) repeat-x #68DC0B center top
+	}
 #header{color:red}
 h3.style{color:yellow}
 p.style{background-color:blue}
