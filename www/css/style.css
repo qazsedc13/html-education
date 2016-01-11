@@ -22,7 +22,7 @@ a {
     -ms-transition: all.6s ease;
 }
 a:hover {
-    color: #fb9ff5;
+    color: fuchsia;
     text-decoration: none;
     transition: all.6s ease;
     -moz-transition: all.6s ease;
@@ -77,6 +77,7 @@ footer{
 	border-top: 2px solid silver;
 	margin-top: 10px;
     padding: 1%;
+    padding-bottom: 2%;
 }
 .right{float: right;}
 .left{float: left;}
