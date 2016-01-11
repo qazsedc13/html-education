@@ -53,7 +53,7 @@ header{
     font-family: Comic Sans MS, sans-serif;
     color: silver;
 }
-#contact{
+.contact{
     font-size: 1.5em;
     font-family: Comic Sans MS, sans-serif;
     margin-left: 20px;
@@ -64,17 +64,20 @@ header{
     padding: 5px;
     margin-left: 20px;
 }*/
-#field{
+.field{
     border-radius: 5px;
     border: 2px solid silver;
     padding: 5px;
     margin-left: 20px;
 }
-#filed:focus{
+.filed:focus{
     border: 2px solid #f58b8b;
 }
 footer{
 	border-top: 2px solid silver;
 	margin-top: 10px;
     padding: 1%;
+}
+.right{
+    float: right;
 }
