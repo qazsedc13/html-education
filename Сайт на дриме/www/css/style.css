@@ -41,6 +41,7 @@ hr {
 	padding:0;}
 	
 /* Selection Block */
+
 ::selection{
 	background:#7CE08B; color:#fff;}
 ::-moz-selection{
@@ -125,6 +126,22 @@ input[type="text"].field:focus{
 	width:80%;
 	margin-left:10%;
 	text-indent:1em;}
+	
+#wrapper #articles article a {
+	padding: 5px;
+	background-color:#ed7b7b;
+	margin-left:5%;
+	border-radius:5px;
+	color:#fff;
+	float:left;
+	margin-top:10px;
+	line-height:12px;
+	margin-bottom:10px;}
+	
+#wrapper #articles article a:hover {
+	background-color:#7FEB6D;
+	color:#763E7A;
+	}
 	
 	/* стили для футера */
 	
