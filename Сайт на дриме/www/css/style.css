@@ -73,10 +73,10 @@ footer img {
 #page-wrap:after {
 	content:"";
 	display:block;}
-footer, #page-wrap {
+footer, #page-wrap:after {
 	height:10px}
 #page-wrap {
-	min-height:100%;
+	min-height:92%;
 	margin-bottom:-10px;}
 .left {float:left}
 .right {float:right}
