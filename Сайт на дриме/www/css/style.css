@@ -143,6 +143,36 @@ input[type="text"].field:focus{
 	color:#763E7A;
 	}
 	
+	/* Центральный блок нашего сайта */
+	
+#main_soc_block {
+	width:100%;
+	padding:2% 0;
+	border-top:2px solid silver;
+	border-bottom:2px solid silver;
+	margin:20px 0;
+	float:left;
+	background:url(../img/group-of-people1.jpg) repeat-x center;
+	height:200px;}
+	
+#main_soc_block_in {
+	text-align:center;
+	padding:1%;
+	height:100px;
+	background-color:#FAFAFA;
+	border:1px solid silver;
+	border-radius: 7px;
+	width:500px;}
+	
+#main_soc_block_in a {
+	float:left;
+	padding:5px 10px;
+	background-color:#E8904C;
+	border-radius:6px;
+	color:#fff;
+	margin-left:35%;
+	margin-top:10px}
+	
 	/* стили для футера */
 	
 footer {
