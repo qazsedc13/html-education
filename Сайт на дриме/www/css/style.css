@@ -33,6 +33,12 @@ img {
 	max-width:100%;
 	height:auto;
 	width:auto\9;}
+hr {
+	display:block;
+	border:0;
+	height:1px;
+	border-top:1px solid #CCCCCC;
+	padding:0;}
 	
 /* Selection Block */
 ::selection{
@@ -41,7 +47,8 @@ img {
 	background:#7CE08B; color:#fff;}
 header, footer {
 	width:98%;
-	background-color:#FFFFFF}
+	background-color:#FFFFFF;
+	float:left}
 header {
 	border-bottom:2px solid silver;
 	padding:1%}
@@ -60,6 +67,26 @@ input[type="text"].field:focus{
 	font-size:1.5em;
 	font-family:Comic Sans MS, sans-serif;
 	margin-left:20px}
+	
+#menu {
+	color:#666;
+	font-family:Comic Sans MS, sans-serif;
+	font-size:1.7em}
+#menu hr {
+	width:500px;
+	max-width:100%;
+	margin-top:5px;
+	margin-bottom:10px;}
+#menuHrefs a {
+	padding:5px 10px;
+	border-radius:5px;
+	margin-right:5px;
+	color:#626262;}
+#menuHrefs a:hover {
+	background-color:#ECECEC}
+	
+	/* стили для футера */
+	
 footer {
 	border-top:2px solid silver;
 	margin-top:10px;
@@ -80,4 +107,5 @@ footer, #page-wrap:after {
 	margin-bottom:-10px;}
 .left {float:left}
 .right {float:right}
+.clear {clear:both}
 
