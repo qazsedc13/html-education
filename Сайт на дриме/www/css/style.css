@@ -100,13 +100,27 @@ input[type="text"].field:focus{
 	
 #wrapper #articles article {
 	float:left;
-	width:31.3333%;
 	border:1px solid silver;
 	box-sizing:border-box;
 	border-radius:5px;
 	background:#fafafa;
-	margin-right:2%;
 	min-height:400px;}
+
+@media (min-width: 900px){	
+#wrapper #articles article {
+	width:31.3333%;
+	margin-right:2%;}}
+	
+@media (max-width: 899px) and (min-width: 700px){	
+#wrapper #articles article {
+	width:80%;
+	margin-left:10%;
+	margin-bottom:10px;}}
+	
+@media (max-width: 699px){
+#wrapper #articles article {
+	width:100%;
+	margin-bottom:10px;}}
 
 #wrapper #articles article img {
 	width:100%;
@@ -227,11 +241,13 @@ form #send:hover {
 #main_soc_block_in {
 	text-align:center;
 	padding:1%;
-	height:100px;
+	height:200px;
+	box-sizing:border-box;
 	background-color:#FAFAFA;
 	border:1px solid silver;
 	border-radius: 7px;
-	width:500px;}
+	width:500px;
+	max-width:98%;}
 	
 #main_soc_block_in a {
 	float:left;
