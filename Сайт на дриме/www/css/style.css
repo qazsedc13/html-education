@@ -143,6 +143,75 @@ input[type="text"].field:focus{
 	color:#763E7A;
 	}
 	
+	/* Стили для странички о нас */
+	
+#about_us {
+	width:70%;
+	float:left;
+	background-color:#FAFAFA;
+	border-radius:5px;
+	border:1px solid silver;
+	box-sizing:border-box;
+	padding:1%;}
+	
+#colum_right {
+	width:25%;
+	float:left;
+	margin-left:5%;
+	background-color:#FAFAFA;
+	border-radius:5px;
+	border:1px solid silver;
+	box-sizing:border-box;
+	padding:1%;}
+	
+	/* Стили для странички обратной связи */
+	
+form {
+	width:60%;
+	margin-left:20%;
+	float:left;}
+	
+form label {
+	float:left;
+	width:100%;
+	margin-bottom:10px;}
+	
+form input {
+	border-radius:5px;
+	border:2px solid silver;
+	padding: 5px;
+	float:left;
+	clear:both;
+	width:40%;
+	margin-bottom:10px;
+	background-color:#FAFAFA;}
+	
+form input:focus, form textarea:focus {
+	border:2px solid #F58B8B;}
+	
+form textarea {
+	width:60%;
+	float:left;
+	clear:both;
+	background-color:#FAFAFA;
+	border:2px solid silver;
+	border-radius:5px;
+	padding:10px;
+	font-size:1.7em;}
+	
+form #send {
+	float:left;
+	padding:10px;
+	background-color:#D3595B;
+	border-radius:5px;
+	margin-top:10px;
+	font-size:2em;
+	color:#FFFFFF;
+	cursor:pointer;}
+	
+form #send:hover {
+	background-color:#6DE78A}
+	
 	/* Центральный блок нашего сайта */
 	
 #main_soc_block {
