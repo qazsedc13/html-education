@@ -52,3 +52,40 @@ header {
 	background-color:#fafafa;
 	border-bottom: 2px solid silver
 }
+
+header #logo {
+	width:30%;
+	float:left;
+}
+header #logo a {
+	color:#939393;
+	font-size:2em;
+	font-family:Times New Roman, sans-serif;
+}
+header #logo span {
+	color:#E36565;
+}
+
+header #menuHead {
+	width: 34%;
+	float:left;
+}
+
+header #menuHead div {
+	float:left;
+	padding:5px;
+	background-color:#c8c8c8;
+	border-radius:5px;
+	color:#FFFFFF;
+}
+
+header #menuHead div:hover {
+	background-color:#e7e7e7;
+}
+
+header #regAuth {
+	width: 30%;
+	float:left;
+	text-align:right;
+	font-size:1.2em;
+}
