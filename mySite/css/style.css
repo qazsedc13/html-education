@@ -118,6 +118,51 @@ header #regAuth {
 	margin-left:10%;
 	background-color:#f6f6f6;
 	padding:1%;
+	float:left;
+}
+
+#wrapper #leftCol #bigArticle img, #wrapper #leftCol .article img {
+	width:100%;
+	float:left;
+	margin-bottom:10px;
+}
+
+#wrapper #leftCol #bigArticle h2, #wrapper #leftCol .article h2 {
+	font-weight:normal;
+	font-size:1.4em;
+	color:#636363;
+	font-family: Comic Sans MS, sans-serif;
+}
+
+#wrapper #leftCol #bigArticle p, #wrapper #leftCol .article p {
+	width:90%;
+	margin-left:5%;
+}
+
+#wrapper #leftCol #bigArticle div.more, #wrapper #leftCol .article div.more {
+	padding:5px;
+	border-radius:5px;
+	background-color:#878787;
+	color:#FFFFFF;
+	width:auto;
+	width:10%;
+	text-align:center;
+	margin-top:10px;
+}
+#wrapper #leftCol #bigArticle div.more:hover, #wrapper #leftCol .article div.more:hover {
+	background-color:#a2a2a2;
+}
+
+#wrapper #leftCol .article {
+	width: 40%;
+	margin-left:5%;
+	background-color:#f6f6f6;
+	padding:1%;
+	float:left;
+}
+
+#wrapper #leftCol .article div.more {
+	width:20%;
 }
 
 /* Стили для правой колонки */
