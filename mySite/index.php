@@ -23,8 +23,20 @@
         	<a href="/reg.php">Регистрация</a> | <a href="/auth.php">Авторизация</a>
         </div>
 	</header>
-    
-<footer>
+    <div id="wrapper">
+    	<div id="leftCol">
+        	s
+        </div>
+        <div id="rightCol">
+        	<div class="banner">
+            	<img src="/img/banner_1.jpg" alt="Баннер 1" title="Баннер 1" />
+            </div>
+            <div class="banner">
+            	<img src="/img/banner_2.jpg" alt="Баннер 2" title="Баннер 2" />
+            </div>      
+        </div>    
+    </div>    
+	<footer>
     	<div id="social">
         	<a href="http://vk.com" title="Группа ВК" target="_blank">
             	<img src="/img/vk.png" alt="ВК" title="ВК">
@@ -42,6 +54,6 @@
         <div id="rights">
 	      Все права защищены &copy;<?=date ('Y')?>
     	</div>
-</footer>
+	</footer>
 </body>
 </html>
