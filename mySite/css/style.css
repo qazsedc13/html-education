@@ -105,11 +105,22 @@ header #regAuth {
 	float:left;
 }
 
+/* Стили для левой колонки */
+
 #wrapper #leftCol {
 	width:70%;
 	margin-right:10%;
 	float:left;
 }
+
+#wrapper #leftCol #bigArticle {
+	width:78%;
+	margin-left:10%;
+	background-color:#f6f6f6;
+	padding:1%;
+}
+
+/* Стили для правой колонки */
 
 #wrapper #rightCol {
 	width:20%;
