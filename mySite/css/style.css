@@ -165,6 +165,17 @@ header #regAuth {
 	width:20%;
 }
 
+/* Стили для странички о нас*/
+
+#wrapper #leftCol #about_us{
+	width:80%;
+	margin-left:10%;
+	border:1px solid silver;
+	background-color:#f4f4f4;
+	padding:2%;
+	border-radius:5px;
+}
+
 /* Стили для правой колонки */
 
 #wrapper #rightCol {
