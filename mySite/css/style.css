@@ -165,6 +165,41 @@ header #regAuth {
 	width:20%;
 }
 
+#wrapper #leftCol input {
+	width:40%;
+	margin-left:30%;
+	float:left;
+	border-radius:5px;
+	border:2px solid silver;
+	padding:5px;
+	color:#5EDFFB;
+	margin-bottom:10px;
+	font-size:1.2em;
+}
+
+#wrapper #leftCol input:focus, #wrapper #leftCol textarea:focus {
+	border: 2px solid #f78080;
+}
+
+#wrapper #leftCol input#done:hover {
+	border: 2px solid #f8d881;
+	cursor:pointer;
+}
+
+#wrapper #leftCol textarea {
+	width:50%;
+	height:150px;
+	margin-left:25%;
+	float:left;
+	border-radius:5px;
+	border:2px solid silver;
+	padding:5px;
+	color:#5EDFFB;
+	margin-bottom:10px;
+	font-size:1.2em;
+	resize:none;
+}
+
 /* Стили для странички о нас*/
 
 #wrapper #leftCol #about_us{
