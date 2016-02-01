@@ -200,6 +200,14 @@ header #regAuth {
 	resize:none;
 }
 
+#wrapper #leftCol #messageShow {
+	font-size:1.2em;
+	float:left;
+	color:red;
+	width:100%;
+	text-align:center;
+}
+
 /* Стили для странички о нас*/
 
 #wrapper #leftCol #about_us{
