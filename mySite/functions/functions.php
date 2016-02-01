@@ -1,13 +1,9 @@
 <?php
-	$mysqli = false;
-	function connectDB () {
+	require_once "connect.php";
+	function getNews () {
 		global $mysqli;
-		$mysqli = new mysqli ("localhost", "root", "", "test1base");
-		$mysqli->query("SET NAMES 'utf-8'");	
-	}
-	
-	function closeDB () {
-		global $mysqli;
-		$mysqli->close();
+		connectDB();
+		
+		closeDB();	
 	}
 ?>
