@@ -27,6 +27,17 @@
 					$('#messageShow').show ();
 					return false;	
 				}
+				$.ajax({
+					url:'/ajax/feedback.php',
+					type:'POST',
+					cache:false,
+					data:{'name': name, 'email': email, 'subject': subject, 'message': message},
+					dataType: 'html',
+					success: function(data) {
+						$('#messageShow').html (data + "<div class='clear'><br /></div>");
+						$('#messageShow').show ();
+					}
+				});
 			});
         });
     </script>
