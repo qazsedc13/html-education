@@ -3,9 +3,9 @@
 <head>
 	<?php
 		require_once "functions/functions.php";
+		$news = getNews (3);
 		$title = "Новости обо всем";
 		require_once "blocks/head.php";
-		$news = getNews (3);
 	?>
 </head>
 
