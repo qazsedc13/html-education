@@ -4,7 +4,6 @@
 	<?php
 		$title = "Новости обо всем";
 		require_once "blocks/head.php";
-		
 		$news = getNews (3);
 	?>
 </head>
@@ -27,7 +26,7 @@
                 	<div class="more">Далее</div>
                 </a>
 			</div>';
-					if ($i = 0) 
+					if ($i == 0) 
 						echo "<div class=\"clear\"><br /></div>";
 					
 			}
