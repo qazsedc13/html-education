@@ -5,7 +5,8 @@
 		require_once "functions/functions.php";
 		$title = "Новости обо всем";
 		require_once "blocks/head.php";
-		$news = getNews (3);
+		$news = getNews (3, $id);
+		
 	?>
 </head>
 
