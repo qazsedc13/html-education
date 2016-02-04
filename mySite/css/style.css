@@ -107,14 +107,14 @@ header #regAuth {
 
 /* Стили для левой колонки */
 
-@media (min-width: 800px){
+@media (min-width: 700px){
 #wrapper #leftCol {
 	width:70%;
 	margin-right:10%;
 	float:left;
 }}
 
-@media (max-width: 799px){
+@media (max-width: 699px){
 #wrapper #leftCol {
 	width:90%;
 	margin-right:5%;
@@ -229,13 +229,13 @@ header #regAuth {
 
 /* Стили для правой колонки */
 
-@media (min-width: 800px){
+@media (min-width: 700px){
 #wrapper #rightCol {
 	width:20%;
 	float:left;
 }}
 
-@media (min-width: 799px){
+@media (max-width: 699px){
 #wrapper #rightCol {
 	width:80%;
 	margin-left:5%;
