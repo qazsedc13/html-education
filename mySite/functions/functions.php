@@ -1,11 +1,16 @@
 <?php
 	require_once "connect.php";
-	function getNews ($limit) {
+	function getNews ($limit, $id) {
 		global $mysqli;
 		connectDB();
-		$result = $mysqli->query("SELECT * FROM `news` ORDER BY `id` DESC LIMIT $limit");
+		if ($id)
+			$where = "WHERE `id` = ".$id;
+		$result = $mysqli->query("SELECT * FROM `news` $where ORDER BY `id` DESC LIMIT $limit");
 		closeDB();
-		return resulToArray ($result);	
+		if (!$id)
+			return resulToArray ($result);
+		else
+			return $result->fetch_assoc();
 	}
 	
 	function resulToArray ($result) {
