@@ -11,6 +11,7 @@
 </head>
 
 <body>
+	<p>Здесь покажем иконку Вконтакте<i class="fa fa-vk"></i></p>
 	<?php require_once "blocks/header.php"?>
     <div id="wrapper">
     	<div id="leftCol">
